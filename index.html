@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Aniversário</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <section class="hero">
+            <div class="container">
+                <h1>Contagem Regressiva para o meu Aniversário!</h1>
+                <div id="countdown">
+                    <span id="days"></span> Dias
+                    <span id="hours"></span> Horas
+                    <span id="minutes"></span> Minutos
+                    <span id="seconds"></span> Segundos
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="evento">
+        <h2>Detalhes do Evento</h2>
+        <p>Data: 6 de fevereiro de 2025</p>
+        <p>Local: Minha casa</p>
+    </section>
+
+    <section>
+        <h2>Confirme sua presença</h2>
+        <form id="rsvp-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Confirmar Presença</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
